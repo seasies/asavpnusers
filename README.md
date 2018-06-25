@@ -23,8 +23,19 @@ USAGE
 OUTPUTS
 ========
 
-        {'users': {'bob.jones': {'Public IP': '1.2.3.4'}, 'dave.jones': {'Public IP': '1.2.3.5'}}}
+Default output - json format:
 
+{'users': {'user1': {'Private IP': '10.12.13.14', 'Public IP': '100.100.100.101'}, 'user2': {'Private IP': '10.12.13.15', 'Public IP': '100.100.100.102'}}}
 
-        bob.jones, 1.2.3.4
-        dave.jones, 1.2.3.4
+Text output format:
+
+users:
+  user1:
+    Private IP: 10.12.13.14
+    Public IP: 100.100.100.101
+  user2:
+    Private IP: 10.12.13.15
+    Public IP: 100.100.100.102
+  user3:
+    Private IP: 10.12.13.16
+    Public IP: 50.50.40.90

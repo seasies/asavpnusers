@@ -100,7 +100,7 @@ def main():
         for i in users['users']:
             print ('%s, %s' % (i, users['users'][i]['Public IP']))
     else:
-        print users
+        print (users)
 
 
 if __name__ == "__main__":
